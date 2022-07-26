@@ -91,5 +91,5 @@ const Counter = () => {
     );
 }
 
-export default Counter;
+export { myContext, Counter };
 

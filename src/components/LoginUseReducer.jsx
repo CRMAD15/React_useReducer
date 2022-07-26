@@ -95,6 +95,8 @@ const LoginUseReducer = () => {
     const logout = () => {
         dispatch({ type: LOGOUT })
     }
+
+    console.log(state)
     return (
         <div className='App'>
             <div>
